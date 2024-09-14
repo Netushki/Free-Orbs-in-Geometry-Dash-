@@ -1,0 +1,50 @@
+@import url("https://fonts.cdnfonts.com/css/pusab");
+
+body {
+  background-image: url("Изображения/Фон.jpg");
+  background-repeat: space;
+  background-size: cover;
+  background-color: black;
+}
+
+.down {
+  width: 400px;
+  height: 90px;
+}
+
+.all {
+  color: white;
+  -webkit-text-stroke: 1px #000000;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.text {
+  font-size: 25px;
+  font-family: "Pusab rus", sans-serif;
+}
+
+.pril {
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+.down {
+  width: 400px;
+  transition: all 0.2s ease;
+}
+
+.down:hover {
+  width: 370px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  body {
+    background-size: 2000px;
+  }
+  .all {
+    margin-top: 50px;
+  }
+}
