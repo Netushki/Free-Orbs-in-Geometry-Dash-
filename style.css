@@ -68,8 +68,8 @@ body {
   .PhoneDown {
     visibility: visible;
     display: flex;
-    width: 400px;
-    height: 90px;
+    width: 325px;
+    height: 75px;
     margin-left: auto;
     margin-right: auto;
   }
