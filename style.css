@@ -1,7 +1,9 @@
 @import url("https://fonts.cdnfonts.com/css/pusab");
 
 body {
-  background-image: url("Изображения/Фон.jpg");
+  /* background-image: url("Изображения/Фон.jpg"); */
+  background-image: url("Изображения/Background.png");
+  background-position: center;
   background-repeat: space;
   background-size: cover;
   background-color: black;
@@ -40,11 +42,40 @@ body {
   cursor: pointer;
 }
 
+.PhoneDown {
+  display: block;
+  visibility: hidden;
+}
+
+.trailer {
+  width: 871px;
+  height: 490px;
+}
+
 @media (max-width: 990px) {
   body {
-    background-size: 2000px;
+    background-size: 3000px;
   }
   .all {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 910px) {
+  .download {
+    visibility: hidden;
+  }
+  .PhoneDown {
+    visibility: visible;
+    display: flex;
+    width: 400px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .trailer {
+    width: 450px;
+    height: 253px;
   }
 }
