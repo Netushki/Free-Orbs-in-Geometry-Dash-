@@ -5,6 +5,7 @@ body {
   background-image: url("Изображения/Background.png");
   background-position: center;
   background-repeat: space;
+  overflow-x: hidden;
   background-size: cover;
   background-color: black;
 }
@@ -19,6 +20,7 @@ body {
   -webkit-text-stroke: 1px #000000;
   margin-top: 150px;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .text {
@@ -54,7 +56,7 @@ body {
 
 @media (max-width: 990px) {
   body {
-    background-size: 3000px;
+    background-size: 3100px;
   }
   .all {
     margin-top: 50px;
@@ -77,5 +79,9 @@ body {
   .trailer {
     width: 350px;
     height: 193px;
+  }
+
+  .all {
+    margin-top: 0px;
   }
 }
