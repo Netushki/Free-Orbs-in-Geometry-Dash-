@@ -4,3 +4,5 @@ THIS APP IS A JOKE AND IT WILL TELL YOU THAT IT HAS A VIRUS, IN FACT IT DOESN'T 
 Thank you for reading this :)
 
 Trailer: https://youtu.be/nKyGXUAJ2oQ
+
+Some files are written in Russian because the creator is Russian.
